@@ -1,0 +1,155 @@
+﻿<!doctype html>
+<html>
+
+<HEAD>
+<META content="IE=10.000" http-equiv="X-UA-Compatible">
+	<link rel="icon" href="favicon.png">
+
+<META http-equiv="Content-Type" content="text/html; charset=utf-8">
+<TITLE>知了软件</TITLE>
+<META name="keywords" content="软件定制,软件开发,中小型软件定制">
+<META name="Description" content="知了软件，软件定制开发专家，专注于中小型软件定制和网站建设，提供软件定制、软件开发、网站开发等专业化技术服务">
+    <LINK href="css/style.css" rel="stylesheet" type="text/css" media="all">
+
+<SCRIPT src="js/jquery.js" type="text/javascript"></SCRIPT>
+
+<SCRIPT src="js/announcement.js" type="text/javascript"></SCRIPT>
+
+<SCRIPT src="js/index_jquery.js" type="text/javascript"></SCRIPT>
+
+<META name="GENERATOR" content="MSHTML 10.00.9200.17377"></HEAD>
+<BODY>
+<DIV id="wrapper">
+<DIV id="header">
+<DIV id="logo"><IMG src="images/logo3.png" border="0">       </DIV>
+<DIV id="menu_item">
+<UL class="menu">
+  <LI><A href="index.html">首页</A> </LI>
+  <LI><A href="solution.html">解决方案</A> </LI>
+  <LI><A href="software.html">软件定制</A></LI>
+  <LI><A href="website.html">网站建设</A></LI>
+    <LI><A href="app.html">APP定制</A></LI>
+  <LI><A href="success.html">成功案例</A></LI>
+    <LI><A href="contactus.html">联系我们</A></LI></UL>
+  </DIV></DIV> <!--end header-->
+
+<DIV id="banner">
+<DIV class="slide">
+<DIV class="num"><A class="cur">1</A><A>2</A><A>3</A></DIV>
+<UL>
+  <LI style="display: block;"><IMG
+  src="images/2.jpg"></LI>
+  <LI><IMG src="images/1.jpg"></LI>
+  <LI><IMG src="images/3.jpg"></LI></UL></DIV>
+<SCRIPT type="text/javascript">
+$(function(){
+	var sw = 0;
+	$(".slide .num a").mouseover(function(){
+		sw = $(".num a").index(this);
+		myShow(sw);
+	});
+	function myShow(i){
+		$(".slide .num a").eq(i).addClass("cur").siblings("a").removeClass("cur");
+		$(".slide ul li").eq(i).stop(true,true).fadeIn(600).siblings("li").fadeOut(600);
+	}
+	//滑入停止动画，滑出开始动画
+	$(".slide").hover(function(){
+		if(myTime){
+		   clearInterval(myTime);
+		}
+	},function(){
+		myTime = setInterval(function(){
+		  myShow(sw)
+		  sw++;
+		  if(sw==3){sw=0;}
+		} , 6000);
+	});
+	//自动开始
+	var myTime = setInterval(function(){
+	   myShow(sw)
+	   sw++;
+	   if(sw==3){sw=0;}
+	} , 6000);
+})
+</SCRIPT>
+ </DIV><!--end banner-->
+
+<DIV id="subject">
+<UL class="subject_list clearfix">
+  <LI><IMG
+  src="images/subject_dataman.jpg"><FONT><STRONG><A href="software.html"
+ > 软件定制</A></STRONG></FONT>
+  <P>专注于中小型管理系统定制和开发，无论你离我们有多远，我们都会提供更加优质的用户体验，使你的软件更显青春和活力。</P><BR></LI>
+  <LI><IMG
+  src="images/subject_datacenter.jpg">
+  			 <FONT><STRONG><A href="website.html" >　网站建设</A></STRONG></FONT>
+
+  <P>专注于中小型网站的建设，提供丰富的网站开发模板，让你的网站更显个性。</P><BR><BR>
+  <LI class="last"><IMG
+src="images/subject_rd.jpg">		 <FONT><STRONG><A href="app.html"
+> APP定制开发 </A></STRONG></FONT>
+  <P>专注于APP的定制和开发，我们为您提供更具特色的APP定制服务，为你量身打造专属APP。</P></LI></UL></DIV> <!--end subject-->
+
+<DIV id="shortcut">
+<DIV id="shortcut_links">
+<UL class="link_list">
+  <LI class="list_item" style="width: 220px;"><FONT><IMG align="absmiddle"
+  src="images/shortcut_subject_black.gif">  服务理念</FONT>
+  <UL class="list_gray">
+    <LI>专业的技术 优质的服务</LI>
+    <LI>为你提供更加卓越的软件产品</LI>
+</UL></LI>
+  <LI class="list_item" style="width: 180px;"><FONT><IMG align="absmiddle"
+ src="images/shortcut_about_black.gif"> 解决方案</FONT>
+  <UL class="list_gray">
+    <LI><A href="#"
+    target="_blank">软件定制解决方案</A></LI>
+    <LI><A href="#"
+    target="_blank">网站建设解决方案</A></LI>
+    <LI><A href="app.html"
+    target="_blank">APP定制开发解决方案</A></LI>
+    <LI><A href="#">微信公众平台开发解决方案</A></LI></UL></LI>
+  <LI class="list_item" style="width: 180px;"><FONT><IMG align="absmiddle"
+  src="images/shortcut_recm_black.gif"> 联系我们</FONT>
+  <UL class="list_gray">
+ <LI>Email：admin@zlsoftdq.cn  gfftp1@163.com</LI>
+   <LI>QQ：1713273177</LI>
+    <LI>电话：0459-5609023</LI>
+    <LI>手机：15845889674 15846905787</LI>
+    <LI></LI></UL></LI>
+  <LI class="list_item" style="width: 200px;"><FONT><IMG align="absmiddle"
+   src="images/shortcut_web_black.gif"> 成功案例</FONT>
+  <UL class="list_gray">
+  <LI><A href="../success1.html"
+    target="_blank">数据抽取与缺陷评估系统</A></LI>
+  <LI><A href="../success2.html"
+    target="_blank">财务成本对比分析系统</A></LI>
+ 	    <LI><A href="#"
+    target="_blank">点餐管理平台</A></LI>
+    <LI><A href="#" target="_blank">
+物业综合服务平台（微信公众平台开发）</A><LI>
+	<LI><A href="#"
+    target="_blank">超市收银管理系统</A></LI>
+	   <LI><A href="../success3.html" target="_blank">知了画图板</A></LI>
+    <LI><A href="../success4.html"
+    target="_blank">知了U盘移动硬盘写保护软件</A></LI>
+ </UL></LI>
+  <LI class="list_item"><FONT><IMG align="absmiddle"
+  src="images/shortcut_contact_black.gif"> 友情链接</FONT>
+  <UL class="list_gray">
+      <LI><A href="http://www.aliyun.com/"  target="_blank">阿里云</A></LI><LI><A href="http://www.zhujiwu.com/"
+
+    target="_blank">主机屋</A></LI>
+   <LI><A href="http://www.dqzfgf.com/"  target="_blank">正方软件</A></LI>
+
+
+    <LI><A href="http://sc.zlsoftdq.cn/" target="_blank">知了素材驿站</A></LI>
+    <LI><A href="http://center.zlsoftdq.cn/" target="_blank">知了电脑中心</A></LI>  <LI><A href="../zldtdh.html" target="_blank">知了地图导航</A></LI> <LI><A href="http://sc.zlsoftdq.cn/zlwzdh/" target="_blank">知了网址导航</A></LI>
+
+<!--       <LI><A href="http://www.2345.com/?k301659"  title="知了软件推荐您使用2345网址导航作为您的浏览器主页" target="_blank">2345网址导航</A></LI>-->
+   </UL></LI></UL></DIV></DIV><!--end shortcut-->
+<DIV id="footer">
+<DIV id="footer_word">   版权所有&copy; 2012 - 2030 知了软件 <br/>Copyright&copy;2012 - 2030 Zlsoft   All rights
+reserved<br/>电话：0459-5609023 手机： 15845889674 15846905787
+<script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1260317772'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s95.cnzz.com/stat.php%3Fid%3D1260317772%26show%3Dpic' type='text/javascript'%3E%3C/script%3E"));</script>
+     </DIV></DIV><!--end footer--> </DIV></BODY></HTML>

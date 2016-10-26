@@ -1,0 +1,89 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3c.org/TR/1999/REC-html401-19991224/loose.dtd">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><HTML
+xmlns="http://www.w3.org/1999/xhtml"><HEAD><META content="IE=10.000"
+http-equiv="X-UA-Compatible">
+	<link rel="icon" href="favicon.png">
+
+<META http-equiv="Content-Type" content="text/html; charset=utf-8">
+<TITLE>联系我们--知了软件</TITLE>
+<META name="keywords" content="软件定制,软件开发,中小型软件定制">
+<META name="Description" content="知了软件，软件定制开发专家，专注于中小型软件定制和网站建设，提供软件定制、软件开发、网站开发等专业化技术服务">
+    <LINK href="css/style.css" rel="stylesheet" type="text/css" media="all">
+
+<SCRIPT src="js/jquery.js" type="text/javascript"></SCRIPT>
+
+<SCRIPT src="js/announcement.js" type="text/javascript"></SCRIPT>
+
+<SCRIPT src="js/index_jquery.js" type="text/javascript"></SCRIPT>
+
+<META name="GENERATOR" content="MSHTML 10.00.9200.17377"></HEAD>
+<BODY>
+<DIV id="wrapper">
+<DIV id="header">
+<DIV id="logo"><IMG src="images/logo3.png" border="0">       </DIV>
+<DIV id="menu_item">
+<UL class="menu">
+  <LI><A href="index.html">首页</A> </LI>
+  <LI><A href="solution.html">解决方案</A> </LI>
+  <LI><A href="software.html">软件定制</A></LI>
+  <LI><A href="website.html">网站建设</A></LI>
+    <LI><A href="app.html">APP定制</A></LI>
+  <LI><A href="success.html">成功案例</A></LI>
+    <LI><A href="contactus.html">联系我们</A></LI></UL>
+  </DIV></DIV> <!--end header-->
+
+<DIV id="banner">
+<DIV class="slide">
+<DIV class="num"><A class="cur">1</A><A>2</A><A>3</A></DIV>
+<UL>
+  <LI style="display: block;"><IMG
+  src="images/2.jpg"></LI>
+  <LI><IMG src="images/1.jpg"></LI>
+  <LI><IMG src="images/3.jpg"></LI></UL></DIV>
+<SCRIPT type="text/javascript">
+$(function(){
+	var sw = 0;
+	$(".slide .num a").mouseover(function(){
+		sw = $(".num a").index(this);
+		myShow(sw);
+	});
+	function myShow(i){
+		$(".slide .num a").eq(i).addClass("cur").siblings("a").removeClass("cur");
+		$(".slide ul li").eq(i).stop(true,true).fadeIn(600).siblings("li").fadeOut(600);
+	}
+	//滑入停止动画，滑出开始动画
+	$(".slide").hover(function(){
+		if(myTime){
+		   clearInterval(myTime);
+		}
+	},function(){
+		myTime = setInterval(function(){
+		  myShow(sw)
+		  sw++;
+		  if(sw==3){sw=0;}
+		} , 6000);
+	});
+	//自动开始
+	var myTime = setInterval(function(){
+	   myShow(sw)
+	   sw++;
+	   if(sw==3){sw=0;}
+	} , 6000);
+})
+</SCRIPT>
+ </DIV><!--end banner-->
+
+<div id="page_position"> </br>当前位置：<a href="../index.html">首页</a>> 联系我们 </br>  </div>
+<DIV id="contactus">
+<UL class="contactus_list clearfix">
+  <LI><IMG
+  src="images/contact_us.jpg"><FONT><STRONG><A
+ > 联系我们</A></STRONG></FONT>
+  <P>Email：developer@zlsoftdq.cn admin@zlsoftdq.cn gfftp1@163.com</P><P>QQ：1713273177</P><P><a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=1713273177&site=qq&menu=yes"><img border="0" src="http://wpa.qq.com/pa?p=2:1713273177:51" alt="点击这里给我发消息" title="点击这里给我发消息"/></a><br></P><P>电话：0459-5609023</P><P>手机：15845889674 15846905787</P><P>邮编：163413</P><P>地址：黑龙江省大庆市红岗区八百垧</P><BR></LI>
+  </UL></DIV> <!--end contactus-->
+
+<DIV id="footer">
+<DIV id="footer_word">   版权所有&copy; 2012 - 2030 知了软件 <br/>Copyright&copy;2012 - 2030 Zlsoft   All rights
+reserved<br/>电话：0459-5609023 手机： 15845889674 15846905787
+<script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1260317772'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s95.cnzz.com/stat.php%3Fid%3D1260317772%26show%3Dpic' type='text/javascript'%3E%3C/script%3E"));</script>
+     </DIV></DIV><!--end footer--> </DIV></BODY></HTML>
