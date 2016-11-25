@@ -1,0 +1,96 @@
+﻿<!doctype html>
+<html>
+
+<HEAD>
+<META content="IE=10.000" http-equiv="X-UA-Compatible">
+  <link rel="icon" href="favicon.png">
+
+<META http-equiv="Content-Type" content="text/html; charset=utf-8">
+<TITLE>Success Case--Zlsoft Software Company</TITLE>
+<META name="keywords" content="Custom Software,Website Building,Custom App Develop">
+<META name="Description" content="Zlsoft Software Company is a excellent software company,software custom development experts.
+Focus on small and medium-sized software customization and website building and
+Provide software customization, software development, website development, and other specialized technical services">
+    <LINK href="../css/style-en.css" rel="stylesheet" type="text/css" media="all">
+
+<SCRIPT src="../js/jquery.js" type="text/javascript"></SCRIPT>
+
+<SCRIPT src="../js/announcement.js" type="text/javascript"></SCRIPT>
+
+<SCRIPT src="../js/index_jquery.js" type="text/javascript"></SCRIPT>
+
+<META name="GENERATOR" content="MSHTML 10.00.9200.17377"></HEAD>
+<BODY>
+<DIV id="wrapper">
+<DIV id="header">
+<DIV id="logo"><IMG src="../images/logo3-en.png" border="0">       </DIV>
+<DIV id="menu_item">
+<UL class="menu">
+  <LI><A href="index.html">Home</A> </LI>
+  <LI><A href="solution.html">Solution</A> </LI>
+  <LI><A href="software.html">Custom Software</A></LI>
+  <LI><A href="website.html">Website Building</A></LI>
+    <LI><A href="app.html">Custom App Develop</A></LI>
+  <LI><A href="success.html">Success Case</A></LI>
+    <LI><A href="contactus.html">Contact Us</A></LI></UL>
+  </DIV></DIV> <!--end header-->
+
+<DIV id="banner">
+<DIV class="slide">
+<DIV class="num"><A class="cur">1</A><A>2</A><A>3</A></DIV>
+<UL>
+  <LI style="display: block;"><IMG
+  src="../images/2-en.jpg"></LI>
+  <LI><IMG src="../images/1-en.jpg"></LI>
+  <LI><IMG src="../images/3-en.jpg"></LI></UL></DIV>
+<SCRIPT type="text/javascript">
+$(function(){
+  var sw = 0;
+  $(".slide .num a").mouseover(function(){
+    sw = $(".num a").index(this);
+    myShow(sw);
+  });
+  function myShow(i){
+    $(".slide .num a").eq(i).addClass("cur").siblings("a").removeClass("cur");
+    $(".slide ul li").eq(i).stop(true,true).fadeIn(600).siblings("li").fadeOut(600);
+  }
+  //滑入停止动画，滑出开始动画
+  $(".slide").hover(function(){
+    if(myTime){
+       clearInterval(myTime);
+    }
+  },function(){
+    myTime = setInterval(function(){
+      myShow(sw)
+      sw++;
+      if(sw==3){sw=0;}
+    } , 4000);
+  });
+  var myTime = setInterval(function(){
+     myShow(sw)
+     sw++;
+     if(sw==3){sw=0;}
+  } , 4000);
+})
+</SCRIPT>
+ </DIV><!--end banner-->
+
+<div id="page_position"> </br>Current location：<a href="../index.html">Home</a>> Success Case </br>  </div>
+<DIV id="contactus">
+<UL class="contactus_list clearfix">
+  <LI><IMG
+  src="../images/success_case.jpg"><FONT><STRONG><A
+ > Success Case</A></STRONG></FONT>
+  <P><A href="success1.html" target="_blank">Data Extraction and Defect Assessment System</A></P><P><A href="success2.html" target="_blank">Financial cost comparison analysis system</A></P>
+  <P><A href="#" target="_blank">
+Point meal management platform</A></P><P><A href="#" target="_blank">
+Property integrated service platform (WeChat public platform development)
+</A></P><P><A href="#" target="_blank">Supermarket cash register management system</A></P><P><A href="success3.html" target="_blank">Zhiliao Drawing board</A></P>
+<P><A href="success4.html" target="_blank">Zhiliao U disk mobile hard disk write protection software</A></P>
+ <BR></LI>
+  </UL></DIV>
+<DIV id="footer">
+<DIV id="footer_word">Welcome to visit Zlsoft software company website!Thank you!<br/> Copyright&copy;2012 - 2030 Zlsoft Software Company  All rights
+reserved<br/>Tel：+86-459-5609023 Mobile：+86-15845889674 15846905787
+<script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1260317772'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s95.cnzz.com/stat.php%3Fid%3D1260317772%26show%3Dpic' type='text/javascript'%3E%3C/script%3E"));</script>
+     </DIV></DIV><!--end footer--> </DIV></BODY></HTML>
