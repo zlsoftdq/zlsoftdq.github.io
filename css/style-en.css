@@ -183,16 +183,16 @@ img {
 	margin: 0px; width: 100%; height: 80px; overflow: hidden; float: left; display: inline; background-image: url("images/header_background1.gif");
 }
 #logo {
-	margin: 0px 0px 0px 20px; width: 160px; height: 80px; float: left;
+	margin: 0px; width: 140px; height: 60px; float: left;
 }
 #menu_item {
-	margin: 0px; width: 800px; height: 80px; float: right;
+	margin-left: 20px; width: 800px; height: 80px; float: left;
 }
 .menu {
-	width: 750px; height: 25px; overflow: hidden; font-size: 16px; margin-top: 34px; margin-bottom: 0px; margin-left: 0px; float: left; display: inline;
+	width: 1000px;padding:0px; height: 25px; overflow: hidden; font-size: 10px; margin-top: 34px; margin-bottom: 0px; margin-left: 0px; float: left; display: inline;
 }
 .menu li {
-	height: 25px; text-align: center; color: rgb(7, 49, 144); font-size: 16px; margin-left: 35px; float: left; list-style-type: none;
+	height: 25px; text-align: center; color: rgb(7, 49, 144); font-size: 10px; margin-left: 10px; float: left; list-style-type: none;
 }
 .menu li a:link {
 	font-family: Microsoft YaHei; font-size: 16px; font-weight: bold;
@@ -580,10 +580,10 @@ img {
 	margin: 0px auto; width: 100%; height: 218px; overflow: hidden; float: left; display: inline; -ms-zoom: 1;
 }
 .contactus_list {
-	overflow: hidden; clear: both; margin-top: 0px; margin-left: -40px; -ms-zoom: 1;
+	overflow: hidden;float:left;padding-left: 0px;clear: both; margin-top: 0px; margin-left: 0px; -ms-zoom: 1;
 }
 .contactus_list li {
-	margin: 5px 60px 0px 0px; padding: 13px 10px 0px 122px; width: 100%; height: 200px; line-height: 160%; overflow: hidden; float: left; -ms-zoom: 1;
+	margin: 5px 0px 0px 0px;float:left; padding: 13px 0px 0px 0px; width: 100%; height: 200px; line-height: 180%; overflow: hidden; float: left; -ms-zoom: 1;
 }
 
 .contactus_list li p {
