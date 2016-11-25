@@ -1,0 +1,153 @@
+﻿<!doctype html>
+<html>
+<HEAD>
+<META content="IE=10.000" http-equiv="X-UA-Compatible">
+	<link rel="icon" href="../favicon.png">
+<META http-equiv="Content-Type" content="text/html; charset=utf-8">
+<TITLE>Zlsoft Company</TITLE>
+<META name="keywords" content="Custom Software,Website Building,Custom App Develop">
+<META name="Description" content="Zlsoft is a excellent software company,software custom development experts.
+Focus on small and medium-sized software customization and website building and
+Provide software customization, software development, website development, and other specialized technical services">
+    <LINK href="../css/style-en.css" rel="stylesheet" type="text/css" media="all">
+
+<SCRIPT src="../js/jquery.js" type="text/javascript"></SCRIPT>
+
+<SCRIPT src="../js/announcement.js" type="text/javascript"></SCRIPT>
+
+<SCRIPT src="../js/index_jquery.js" type="text/javascript"></SCRIPT>
+
+<META name="GENERATOR" content="MSHTML 10.00.9200.17377"></HEAD>
+<BODY>
+<DIV id="wrapper">
+<DIV id="header">
+<DIV id="logo"><IMG src="../images/logo3.png" border="0">       </DIV>
+<DIV id="menu_item">
+<UL class="menu">
+  <LI><A href="index.html">Home</A> </LI>
+  <LI><A href="solution.html">Solution</A> </LI>
+  <LI><A href="software.html">Custom Software</A></LI>
+  <LI><A href="website.html">Website Building</A></LI>
+    <LI><A href="app.html">Custom App Develop</A></LI>
+  <LI><A href="success.html">Success Case</A></LI>
+    <LI><A href="contactus.html">Contact Us</A></LI></UL>
+  </DIV></DIV> <!--end header-->
+
+<DIV id="banner">
+<DIV class="slide">
+<DIV class="num"><A class="cur">1</A><A>2</A><A>3</A></DIV>
+<UL>
+  <LI style="display: block;"><IMG
+  src="../images/2-en.jpg"></LI>
+  <LI><IMG src="../images/1-en.jpg"></LI>
+  <LI><IMG src="../images/3-en.jpg"></LI></UL></DIV>
+<SCRIPT type="text/javascript">
+$(function(){
+	var sw = 0;
+	$(".slide .num a").mouseover(function(){
+		sw = $(".num a").index(this);
+		myShow(sw);
+	});
+	function myShow(i){
+		$(".slide .num a").eq(i).addClass("cur").siblings("a").removeClass("cur");
+		$(".slide ul li").eq(i).stop(true,true).fadeIn(600).siblings("li").fadeOut(600);
+	}
+	//滑入停止动画，滑出开始动画
+	$(".slide").hover(function(){
+		if(myTime){
+		   clearInterval(myTime);
+		}
+	},function(){
+		myTime = setInterval(function(){
+		  myShow(sw)
+		  sw++;
+		  if(sw==3){sw=0;}
+		} , 4000);
+	});
+	var myTime = setInterval(function(){
+	   myShow(sw)
+	   sw++;
+	   if(sw==3){sw=0;}
+	} , 4000);
+})
+</SCRIPT>
+ </DIV><!--end banner-->
+<DIV id="subject">
+<UL class="subject_list clearfix">
+  <LI><IMG
+  src="../images/subject_dataman.jpg"><FONT><STRONG><A href="software.html"
+ > Custom Software</A></STRONG></FONT>
+  <P>Focus on small and medium-sized management system customization and development, no matter how far away from us, we will provide a more high-quality user experience, make your software more youth and vitality.</P><BR></LI>
+  <LI><IMG
+  src="../images/subject_datacenter.jpg">
+  			 <FONT><STRONG><A href="website.html" >Website Building</A></STRONG></FONT>
+
+  <P>Focus on the construction of small and medium-sized sites, providing a wealth of website development templates, so that your site more personality.</P><BR><BR>
+  <LI class="last"><IMG src="../images/subject_rd.jpg">		 <FONT><STRONG><A href="app.html"
+> Custom App Develop </A></STRONG></FONT>
+  <P>Focus on the APP customization and development, we provide you with more features of the APP customization services, tailored for your exclusive APP.</P></LI></UL></DIV> <!--end subject-->
+
+<DIV id="shortcut">
+<DIV id="shortcut_links">
+<UL class="link_list">
+  <LI class="list_item" style="width: 220px;"><FONT><IMG align="absmiddle"
+  src="../images/shortcut_subject_black.gif">
+Service idea</FONT>
+  <UL class="list_gray">
+    <LI>Professional technical Quality of service</LI>
+    <LI>To provide you with more superior software products</LI>
+</UL></LI>
+  <LI class="list_item" style="width: 180px;"><FONT><IMG align="absmiddle"
+ src="../images/shortcut_about_black.gif"> Solution</FONT>
+  <UL class="list_gray">
+    <LI><A href="#"
+    target="_blank">Solution for custom software</A></LI>
+    <LI><A href="#"
+    target="_blank">Solution for website building</A></LI>
+    <LI><A href="app.html"
+    target="_blank">Solution for custom app develop</A></LI>
+    <LI><A href="#">Solution for wechat platform develop</A></LI></UL></LI>
+  <LI class="list_item" style="width: 180px;"><FONT><IMG align="absmiddle"
+  src="../images/shortcut_recm_black.gif"> Concact Us</FONT>
+  <UL class="list_gray">
+ <LI>Email：admin@zlsoftdq.cn  gfftp1@163.com</LI>
+   <LI>QQ：1713273177</LI>
+    <LI>Tel：+86-459-5609023</LI>
+    <LI>Mobile：+86-15845889674 15846905787</LI>
+    <LI></LI></UL></LI>
+  <LI class="list_item" style="width: 200px;"><FONT><IMG align="absmiddle"
+   src="../images/shortcut_web_black.gif"> Success Case</FONT>
+  <UL class="list_gray">
+  <LI><A href="../success1.html"
+    target="_blank">Data Extraction and Defect Assessment System</A></LI>
+  <LI><A href="../success2.html"
+    target="_blank">Financial cost comparison analysis system</A></LI>
+ 	    <LI><A href="#"
+    target="_blank">Point meal management platform</A></LI>
+    <LI><A href="#" target="_blank">
+Property integrated service platform (WeChat public platform development)</A><LI>
+	<LI><A href="#"
+    target="_blank">
+Supermarket cash register management system</A></LI>
+	   <LI><A href="../success3.html" target="_blank">Zhiliao Drawing board</A></LI>
+    <LI><A href="../success4.html"
+    target="_blank">Zhiliao U disk mobile hard disk write protection software</A></LI>
+ </UL></LI>
+  <LI class="list_item"><FONT><IMG align="absmiddle"
+  src="../images/shortcut_contact_black.gif"> Friend Links</FONT>
+  <UL class="list_gray">
+      <LI><A href="http://www.aliyun.com/"  target="_blank">Aliyun</A></LI><LI><A href="http://www.zhujiwu.com/"
+
+    target="_blank">Zhujiwu Website</A></LI>
+   <LI><A href="http://www.dqzfgf.com/"  target="_blank">Daqing Direction Software</A></LI>
+
+
+    <LI><A href="http://sc.zlsoftdq.cn/" target="_blank">Zhiliao material post</A></LI>
+    <LI><A href="http://center.zlsoftdq.cn/" target="_blank">Zhiliao computer center</A></LI>  <LI><A href="../zldtdh.html" target="_blank">Zhiliao map search</A></LI> <LI><A href="http://sc.zlsoftdq.cn/zlwzdh/" target="_blank">Zhiliao website search</A></LI>
+
+   </UL></LI></UL></DIV></DIV><!--end shortcut-->
+<DIV id="footer">
+<DIV id="footer_word">Welcome to visit Zlsoft website!Thank you!<br/> Copyright&copy;2012 - 2030 Zlsoft   All rights
+reserved<br/>Tel：+86-459-5609023 Mobile：+86-15845889674 15846905787
+<script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1260317772'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s95.cnzz.com/stat.php%3Fid%3D1260317772%26show%3Dpic' type='text/javascript'%3E%3C/script%3E"));</script>
+     </DIV></DIV><!--end footer--> </DIV></BODY></HTML>
