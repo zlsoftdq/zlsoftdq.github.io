@@ -104,7 +104,7 @@ ul li {
 	margin: 0px auto; padding: 0px; width: 1000px; height: 100%;
 }
 .full#wrapper {
-	
+
 }
 .wrapper {
 	margin: 0px auto; width: 1000px; height: 100%;
@@ -126,7 +126,7 @@ ul li {
     filter: alpha(opacity=80);
 }
 .clearfix {
-	
+
 }
 img {
 	border: 0px currentColor;
@@ -189,10 +189,10 @@ img {
 	margin: 0px; width: 800px; height: 80px; float: right;
 }
 .menu {
-	width: 750px; height: 25px; overflow: hidden; font-size: 16px; margin-top: 34px; margin-bottom: 0px; margin-left: 0px; float: left; display: inline;
+	width: 800px; height: 25px; overflow: hidden; font-size: 16px; margin-top: 34px; margin-bottom: 0px; margin-left: 0px; float: left; display: inline;
 }
 .menu li {
-	height: 25px; text-align: center; color: rgb(7, 49, 144); font-size: 16px; margin-left: 35px; float: left; list-style-type: none;
+	height: 25px; text-align: center; color: rgb(7, 49, 144); font-size: 16px; margin-left: 20px; float: left; list-style-type: none;
 }
 .menu li a:link {
 	font-family: Microsoft YaHei; font-size: 16px; font-weight: bold;
@@ -493,7 +493,7 @@ img {
 	padding: 0px;
 }
 #main_content {
-	
+
 }
 #main_content_left {
 	padding: 33px 0px; width: 475px; float: left;
