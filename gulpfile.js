@@ -30,7 +30,8 @@ gulp.task('copy', function() {
 gulp.task('dist', function() {
   // src/index.html
   //gulp.watch('src/index.html', ['copy']);
-  gulp.watch('src/*.css', ['style']);
+  gulp.watch('src/*.css', ['compress_css']);
+  gulp.watch('src/*.js', ['compress_js']);
 });
 
 var cssnano = require('gulp-cssnano');
@@ -47,7 +48,7 @@ gulp.task('compress_js', function() {
     .pipe(uglify())
     .pipe(gulp.dest('js/'));
 });
-/*
+
 var browserSync = require('browser-sync').create();
 
 // Static server
@@ -57,4 +58,6 @@ gulp.task('serve', function() {
             baseDir: "./"
         }
     });
-});*/
+});
+
+gulp.task('start', [ 'compress_css', 'compress_js' ,'dist', 'serve' ]);
