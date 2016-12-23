@@ -22,6 +22,7 @@
   "homepage": "http://zlsoftdq.cn",
   "devDependencies": {
     "gulp": "^3.9.1",
-    "gulp-cssnano": "^2.1.2"
+    "gulp-cssnano": "^2.1.2",
+    "gulp-uglify": "^2.0.0"
   }
 }
