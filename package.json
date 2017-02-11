@@ -1,0 +1,29 @@
+{
+  "name": "zlsoftdq.github.io",
+  "version": "1.0.0",
+  "description": "This is zlsoftdq.cn website.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zlsoftdq/zlsoftdq.github.io.git"
+  },
+  "keywords": [
+    "知了软件",
+    "zlsoftdq"
+  ],
+  "author": "zlsoftdq <developer@zlsoftdq.cn> (http://zlsoftdq.cn/)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zlsoftdq/zlsoftdq.github.io/issues"
+  },
+  "homepage": "http://zlsoftdq.cn",
+  "devDependencies": {
+    "browser-sync": "^2.18.5",
+    "gulp": "^3.9.1",
+    "gulp-cssnano": "^2.1.2",
+    "gulp-uglify": "^2.0.0"
+  }
+}

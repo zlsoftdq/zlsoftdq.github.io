@@ -1,4 +1,4 @@
-# **Zlsoft software company website** #
+# **Zlsoft Software Company website** #
 
 
 ## Welcome to visit the website of the chinese version! ##
